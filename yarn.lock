@@ -24,9 +24,9 @@
   version "8.0.47"
   resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-8.0.47.tgz#968e596f91acd59069054558a00708c445ca30c2"
 
-"@types/react-dom@^16":
-  version "16.0.5"
-  resolved "http://registry.npm.taobao.org/@types/react-dom/download/@types/react-dom-16.0.5.tgz#a757457662e3819409229e8f86795ff37b371f96"
+"@types/react-dom@16.0.0":
+  version "16.0.0"
+  resolved "http://registry.npm.taobao.org/@types/react-dom/download/@types/react-dom-16.0.0.tgz#7fac396cbd1cf44e112b957c8ef9c7ef401a90b3"
   dependencies:
     "@types/node" "*"
     "@types/react" "*"
@@ -53,15 +53,9 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react@*":
+"@types/react@*", "@types/react@16.0.18":
   version "16.0.18"
   resolved "http://registry.npm.taobao.org/@types/react/download/@types/react-16.0.18.tgz#c08eea79ada55bf10b5353e18c21797dd17afa23"
-
-"@types/react@^16":
-  version "16.3.13"
-  resolved "http://registry.npm.taobao.org/@types/react/download/@types/react-16.3.13.tgz#47d466462b774556c1174ea0eda22c0578643362"
-  dependencies:
-    csstype "^2.2.0"
 
 abab@^1.0.3:
   version "1.0.4"
@@ -1413,10 +1407,6 @@ cssom@0.3.x, "cssom@>= 0.3.2 < 0.4.0":
   resolved "http://registry.npm.taobao.org/cssstyle/download/cssstyle-0.2.37.tgz#541097234cb2513c83ceed3acddc27ff27987d54"
   dependencies:
     cssom "0.3.x"
-
-csstype@^2.2.0:
-  version "2.4.2"
-  resolved "http://registry.npm.taobao.org/csstype/download/csstype-2.4.2.tgz#158e36c69566bf968da63d0ba14eda1c20e8643a"
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
@@ -5435,9 +5425,9 @@ react-dev-utils@^4.0.1:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-dom@^16:
-  version "16.3.2"
-  resolved "http://registry.npm.taobao.org/react-dom/download/react-dom-16.3.2.tgz#cb90f107e09536d683d84ed5d4888e9640e0e4df"
+react-dom@16.0.0:
+  version "16.0.0"
+  resolved "http://registry.npm.taobao.org/react-dom/download/react-dom-16.0.0.tgz#9cc3079c3dcd70d4c6e01b84aab2a7e34c303f58"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
@@ -5540,9 +5530,9 @@ react-slick@~0.16.0:
     object-assign "^4.1.0"
     slick-carousel "^1.6.0"
 
-react@^16:
-  version "16.3.2"
-  resolved "http://registry.npm.taobao.org/react/download/react-16.3.2.tgz#fdc8420398533a1e58872f59091b272ce2f91ea9"
+react@16.0.0:
+  version "16.0.0"
+  resolved "http://registry.npm.taobao.org/react/download/react-16.0.0.tgz#ce7df8f1941b036f02b2cca9dbd0cb1f0e855e2d"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
